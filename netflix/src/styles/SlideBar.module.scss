@@ -1,0 +1,60 @@
+.SlideBar_Main {
+  margin-top: 70px;
+}
+.BackGround {
+  margin-left: 1px;
+  border-radius: 12px;
+  width: 216px;
+  height: 610px;
+  background: rgb(0, 0, 0, 0.15);
+  //   background-color: aliceblue;
+  position: absolute;
+}
+
+.Text_main {
+  font-size: small;
+  font-weight: 300;
+  color: grey;
+  padding-left: 2px;
+}
+
+.Text {
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 21px;
+  margin-top: 30px;
+  padding-left: 58px;
+  color: gray;
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  &:hover,
+  &:active {
+    border-color: red;
+    background-color: #2a2a2c;
+  }
+}
+.f {
+  position: relative;
+}
+.Bar {
+  position: absolute;
+  left: 53px;
+  top: 70px;
+  height: 20px;
+}
+
+.active_SlideBar {
+  width: 200px;
+}
+
+.close {
+  margin-left: 62px;
+  height: 20px;
+}
+
+.Link {
+  text-decoration: none;
+}

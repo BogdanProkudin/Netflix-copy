@@ -1,0 +1,251 @@
+/* Убирает стили кнопок управления видео */
+
+.photo {
+  margin-top: 20px;
+  background-image: url('../logo/luci.jpg');
+  border-radius: 30px;
+  margin-left: 135px;
+
+  height: 600px;
+  min-width: 980px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  box-shadow: -25px 0 20px -20px rgba(254, 5, 5, 0.45);
+}
+.Grey_Effect {
+  position: absolute;
+  border-radius: 41px;
+  top: 113px;
+  background: linear-gradient(
+    90deg,
+    #181818 10%,
+    hsla(0, 0%, 9%, 0.98) 20%,
+    hsla(0, 0%, 9%, 0.97) 25%,
+    hsla(0, 0%, 9%, 0.95) 35%,
+    hsla(0, 0%, 9%, 0.94) 40%,
+    hsla(0, 0%, 9%, 0.92) 45%,
+    hsla(0, 0%, 9%, 0.9) 50%,
+    hsla(0, 0%, 9%, 0.87) 55%,
+    hsla(0, 0%, 9%, 0.82) 60%,
+    hsla(0, 0%, 9%, 0.75) 65%,
+    hsla(0, 0%, 9%, 0.63) 70%,
+    hsla(0, 0%, 9%, 0.45) 75%,
+    hsla(0, 0%, 9%, 0.27) 80%,
+    hsla(0, 0%, 9%, 0.15) 85%,
+    hsla(0, 0%, 9%, 0.08) 90%,
+    hsla(0, 0%, 9%, 0.03) 95%,
+    hsla(0, 0%, 9%, 0)
+  );
+  height: 620px;
+  left: 125px;
+  width: 1000px;
+}
+
+.Grey_Effect_Changed {
+  position: absolute;
+  border-radius: 41px;
+  top: 77px;
+  background: linear-gradient(
+    90deg,
+    #181818 10%,
+    hsla(0, 0%, 9%, 0.98) 20%,
+    hsla(0, 0%, 9%, 0.97) 25%,
+    hsla(0, 0%, 9%, 0.95) 35%,
+    hsla(0, 0%, 9%, 0.94) 40%,
+    hsla(0, 0%, 9%, 0.92) 45%,
+    hsla(0, 0%, 9%, 0.9) 50%,
+    hsla(0, 0%, 9%, 0.87) 55%,
+    hsla(0, 0%, 9%, 0.82) 60%,
+    hsla(0, 0%, 9%, 0.75) 65%,
+    hsla(0, 0%, 9%, 0.63) 70%,
+    hsla(0, 0%, 9%, 0.45) 75%,
+    hsla(0, 0%, 9%, 0.27) 80%,
+    hsla(0, 0%, 9%, 0.15) 85%,
+    hsla(0, 0%, 9%, 0.08) 90%,
+    hsla(0, 0%, 9%, 0.03) 95%,
+    hsla(0, 0%, 9%, 0)
+  );
+  height: 675px;
+  left: 207px;
+  width: 945px;
+  transition: transform 0.5s;
+
+  transform: scale(0.9);
+}
+
+div {
+  display: block;
+}
+
+.back {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  left: 130px;
+  bottom: 400px;
+  height: 104px;
+}
+.back {
+  position: relative;
+}
+
+.name1 {
+  position: absolute;
+  left: 129px;
+  bottom: 441px;
+  height: 123px;
+}
+
+.photo1 {
+  margin-top: 20px;
+  border-radius: 30px;
+  background-image: url('../logo/luci.jpg');
+
+  transition: transform 0.7s;
+  margin-left: 255px;
+  height: 600px;
+  min-width: 875px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: -25px 0 20px -20px rgba(254, 5, 5, 0.45);
+  transform-origin: right;
+}
+
+.FilmName {
+  position: absolute;
+  color: #fff;
+  top: 250px;
+  left: 130px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.FilmName1 {
+  position: absolute;
+  color: #fff;
+  top: 275px;
+
+  left: 130px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.between {
+  position: absolute;
+
+  bottom: 268px;
+  left: 169px;
+  color: #a3a3a3;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+.between_changed {
+  position: absolute;
+  bottom: 298px;
+  left: 172px;
+  color: #a3a3a3;
+  font-size: 18px;
+  font-weight: 400;
+}
+.info {
+  position: absolute;
+
+  bottom: 268px;
+  left: 128px;
+  color: #a3a3a3;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.info1 {
+  position: absolute;
+  bottom: 268px;
+  left: 176px;
+  color: #a3a3a3;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.info2 {
+  position: absolute;
+  bottom: 268px;
+  left: 220px;
+  color: #a3a3a3;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.between1 {
+  position: absolute;
+
+  bottom: 268px;
+  left: 210px;
+  color: #a3a3a3;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+.between1_changed {
+  position: absolute;
+  bottom: 297px;
+  font-size: 18px;
+  color: #a3a3a3;
+  left: 220px;
+
+  font-weight: 400;
+}
+
+.info_changed {
+  position: absolute;
+  bottom: 297px;
+  font-size: 18px;
+  color: #c2c2c2;
+  left: 126px;
+}
+.info1_changed {
+  position: absolute;
+  bottom: 297px;
+  font-size: 18px;
+  color: #c2c2c2;
+  left: 183px;
+}
+.info2_changed {
+  position: absolute;
+  bottom: 297px;
+  font-size: 18px;
+  color: #c2c2c2;
+  left: 235px;
+}
+
+.Info_Description_Text {
+  position: absolute;
+  bottom: 183px;
+  font-size: 18px;
+
+  left: 125px;
+  color: #fff;
+
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 100%;
+}
+.Info_Description_Text_Changed {
+  position: absolute;
+  bottom: 213px;
+  font-size: 18px;
+
+  left: 125px;
+  color: #fff;
+
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 100%;
+}

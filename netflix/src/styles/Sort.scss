@@ -1,0 +1,53 @@
+.flex {
+  margin-top: 35px;
+}
+.MainTitle {
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.SortName {
+  margin-left: 10px;
+  font-size: 17px;
+  color: rgb(255, 247, 247);
+  border-bottom: 1px solid rgb(220, 215, 215);
+  cursor: pointer;
+}
+
+.list_popup {
+  position: absolute;
+  left: 320px;
+  margin-top: 15px;
+  background-color: #181818;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 158px;
+  height: 109px;
+  z-index: 100;
+  ul {
+    text-align: center;
+    padding-bottom: 20px;
+    list-style: none;
+    overflow: hidden;
+    li {
+      color: grey;
+      padding: 12px 20px;
+      cursor: pointer;
+      margin-left: -35px;
+      border-left: 2px solid transparent;
+
+      &:hover {
+        border-color: red;
+        background-color: #2a2a2c;
+      }
+
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+}

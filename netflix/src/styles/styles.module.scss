@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: rgb(16, 16, 16);
+  scroll-behavior: smooth;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+
+  padding-top: 45px;
+  max-width: 1500px;
+}
+
+.logo {
+  padding-left: 50px;
+  padding-bottom: 10px;
+  width: auto;
+  height: 40px;
+}
+
+.InputHeader {
+  margin-left: 240px;
+  color: azure;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+  padding-right: 55px;
+  width: 220px;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgb(33, 28, 28);
+  border-radius: 50px;
+  &:focus {
+    outline: none !important;
+    border: 4px solid rgb(33, 28, 28);
+    box-shadow: 0px -25px 20px -20px rgba(152, 25, 25, 0.45),
+      25px 0 20px -20px rgba(152, 25, 25, 0.45), 0px 25px 20px -20px rgba(152, 25, 25, 0.45),
+      -25px 0 20px -20px rgba(152, 25, 25, 0.45);
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.HeaderInputMain {
+  position: relative;
+}
+.searchLogo {
+  position: absolute;
+  left: 258px;
+  top: 12px;
+  margin-right: 100px;
+  height: 15px;
+}
+
+.flex {
+  display: flex;
+  padding-right: 100px;
+}
+
+.bell {
+  height: 32px;
+  padding-right: 27px;
+}
+
+.lucifer {
+  height: 35px;
+  width: 37px;
+  border-radius: 50%;
+}
+
+.HeaderWrapper {
+  display: flex;
+  justify-content: center;
+  padding-left: 90px;
+  margin-right: 120px;
+}
+
+.test {
+  padding-left: 50px;
+  padding-bottom: 10px;
+  width: auto;
+  height: 40px;
+  background: rgb(0, 0, 0, 0.15);
+}
+
+.a {
+}
+.contain {
+  position: absolute;
+  left: 50%;
+
+  transform: translate(-50%);
+}
+.background {
+  position: relative;
+
+  width: 1500px;
+}
+.cen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: 1470px;
+}
